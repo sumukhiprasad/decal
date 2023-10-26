@@ -73,12 +73,12 @@ Using nested for-loops, create and print a 5x5 2D list with the numbers from 1 t
 # Q3 PART 1 CODE HERE
 list_2D = list(range(0,25)) # this creates a list of numbers from 1 to 25
 
-# def list_odd_integers_1_to_25():
-#     list_odd_integers_1_to_25 = []
-#     for i in list_2D:
-#         if i % 2 != 0:
-#             list_odd_integers_1_to_25.append(i)
-#     return list_odd_integers_1_to_25
+# def list_odd_integers_1_to_25(): #PRACTICE
+#     list_odd_integers_1_to_25 = [] #PRACTICE
+#     for i in list_2D: #PRACTICE
+#         if i % 2 != 0: #PRACTICE
+#             list_odd_integers_1_to_25.append(i) #PRACTICE
+#     return list_odd_integers_1_to_25 #PRACTICE
 
 #Hint: Outer loop will manage row indices, inner loop will manage column indices (or vice 
 # versa).
