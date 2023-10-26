@@ -1,0 +1,15 @@
+import numpy as np
+
+#add two arrays and add two lists
+
+def loopSum():
+    sum = 0
+    for i in range(1,101):
+        sum = sum + i
+    print sum
+
+def arraySum():
+    listof100 = np.arrange(1,101)
+    return np.sum(listof100)
+
+
