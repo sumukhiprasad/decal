@@ -15,7 +15,7 @@ Errors experienced:
 4. I received an error that said that it cannot access local variable 'i' where it is not associated with a value when I wrote "for i in listA and i in listB:" in my code. To fix this error, I just added a for-loop for listB separately so that two separate for-loops would run, one after the other.
 5. I got an error for not having quotation marks around the "?" in the following: "result_list.append(?)". I fixed this error by adding quotation marks around the question mark as such: "result_list.append("?").
 6. I received an error when I tried running the file in the terminal. I have to remember to exit() out of the file running (which is indicated by ">>>". this means that we are running code within a specific file). Then, once i get to the file location/directory, I can type python -i 'file_name' (the file name being the file whose script you want to run), to run a file from the command line.
-7. To submit a homework using Github, I must go on my GitBash terminal, locate the directory in which the homework is stored, and click (without quotations) "git add .", "git commit -m 'a meaningful message'", and git push
+7. To submit a homework using Github on my local terminal, I must go on my GitBash terminal, locate the directory in which the homework is stored, and click (without quotations) "git add .", "git commit -m 'a meaningful message'", and git push
 
 
 Q2: List Slicing and Striding:
